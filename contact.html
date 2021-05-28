@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Контакти</title>
+
+  <!-- NRW-BG icon -->
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favivons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favivons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favivons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favivons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favivons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favivons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favivons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favivons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favivons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favivons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favivons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favivons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favivons/favicon-16x16.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- Contact syles -->
+  <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
+  <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV8PMCZ3S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XGV8PMCZ3S');
+  </script>
+
+  <!-- add header -->
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+
+
+</head>
+
+<body>
+
+  <header id="header"></header>
+
+  <main class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <h1 class="mb-0">Контакти</h1>
+          <p class="text-muted">
+            Твоето съобщение
+          </p>
+
+
+          <form class="fcf-form-class" method="post" action="fcf-assets/fcf.process.php" style="max-width: 600px;">
+
+            <div class="form-floating mb-3">
+              <input type="text" name="Name" id="Name" class="form-control" data-validate-field="Name">
+              <label for="Name" class="form-label">Име</label>
+
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="email" name="Email" id="Email" class="form-control" data-validate-field="Email">
+              <label for="Email" class="form-label">Еmail адрес</label>
+            </div>
+
+            <div class="form-floating">
+              <textarea name="Message" id="Message" class="form-control" rows="5" data-validate-field="Message" style="height: 100px"></textarea>
+              <label for="Message" class="form-label">Твоето съобщение</label>
+            </div>
+
+            <div id="fcf-status" class="fcf-status"></div>
+
+         
+            <button id="fcf-button" type="submit" class="btn btn-primary mt-4 ripple-surface">
+              Изпрати
+            </button>
+     
+          </form>
+        </div>
+
+        <div id="fcf-thank-you" style="display:none">
+          <p>Благодаря за съобщението</p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-light text-center text-lg-start" id="footer"></footer>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/isotop.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <!-- Contact form scripts -->
+  <script src="fcf-assets/js/lang/fcf.en.js"></script>
+  <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+  <script src="fcf-assets/js/fcf.form.js"></script>
+</body>
+
+</html>

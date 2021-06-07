@@ -112,7 +112,6 @@ function showSuccessMessage(message) {
     var content = document.getElementById('fcf-thank-you').innerHTML;
     document.getElementById('fcf-thank-you').innerHTML = content + message;
     document.getElementById('fcf-status').innerHTML = '';
-    document.getElementById('fcf-form').style.display = 'none';
     document.getElementById('fcf-thank-you').style.display = 'block';
 }
 

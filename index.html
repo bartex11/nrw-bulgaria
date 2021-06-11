@@ -105,46 +105,46 @@
         <div class="filters">
           <div class="button-group filters-button-group" data-filter-group="category">
             <h4 class="mb-0">Категории:</h4>
-            <button class="button-filter is-checked" data-filter="*">
+            <button class="button-filter is-checked reset" data-filter="*">
               Покажи всички
             </button>
-            <button class="button-filter" data-filter=".shop">
+            <button class="button-filter reset" data-filter=".shop">
               <i class="fas fa-shopping-basket me-2"></i>Магазини
             </button>
-            <button class="button-filter" data-filter=".doctor">
+            <button class="button-filter reset" data-filter=".doctor">
               <i class="fas fa-ambulance me-2"></i>Лекари
             </button>
-            <button class="button-filter" data-filter=".dentist">
+            <button class="button-filter reset" data-filter=".dentist">
               <i class="fas fa-tooth me-2"></i>Зъболекари
             </button>
-            <button class="button-filter" data-filter=".bar">
+            <button class="button-filter reset" data-filter=".bar">
               <i class="fas fa-utensils me-2"></i>Заведения
             </button>
-            <button class="button-filter" data-filter=".beauty">
+            <button class="button-filter reset" data-filter=".beauty">
               <i class="fas fa-skull-crossbones me-2"></i>Салони за красота
             </button>
-            <button class="button-filter" data-filter=".transport">
+            <button class="button-filter reset" data-filter=".transport">
               <i class="fas fa-bus me-2"></i>Транспортни услуги
             </button>
-            <button class="button-filter" data-filter=".translations">
+            <button class="button-filter reset" data-filter=".translations">
               <i class="fas fa-bus me-2"></i>Преводи
             </button>
-            <button class="button-filter" data-filter=".travel">
+            <button class="button-filter reset" data-filter=".travel">
               <i class="fas fa-bed me-2"></i>Туризъм
             </button>
-            <button class="button-filter" data-filter=".insurance">
+            <button class="button-filter reset" data-filter=".insurance">
               <i class="fas fa-coins me-2"></i>Застраховки
             </button>
-            <button class="button-filter" data-filter=".construction">
+            <button class="button-filter reset" data-filter=".construction">
               <i class="fas fa-hard-hat me-2"></i>Строителни дейности
             </button>
-            <button class="button-filter" data-filter=".internet">
+            <button class="button-filter reset" data-filter=".internet">
               <i class="fas fa-wifi me-2"></i>Интернет
             </button>
-            <button class="button-filter" data-filter=".broker">
+            <button class="button-filter reset" data-filter=".broker">
               <i class="fab fa-houzz me-2"></i>Недвижими имоти
             </button>
-            <button class="button-filter" data-filter=".culture">
+            <button class="button-filter reset" data-filter=".culture">
               <i class="fab fa-pagelines me-2"></i>Култура
             </button>
           </div>
@@ -175,10 +175,15 @@
             <button class="button-filter" data-filter=".essen">
               Есен
             </button>
+            <button class="button-filter" data-filter=".oberhausen">
+              Оберхаузен
+            </button>
             <button class="button-filter" data-filter=".solingen">
               Солинген
             </button>
-            <button class="button-filter" data-filter=".kaarst">Карст</button>
+            <button class="button-filter" data-filter=".kaarst">
+              Карст
+            </button>
             <button class="button-filter" data-filter=".haan">
               Хан
             </button>
@@ -187,6 +192,34 @@
             </button>
             <button class="button-filter" data-filter=".lennestadt">
               Ленещат
+            </button>
+            <button class="button-filter" data-filter=".kleve">
+              Клеве
+            </button>
+          </div>
+
+          <div class="button-group filters-button-group mt-3" data-filter-group="doctors">
+            <h4 class="mb-0">Лекари:</h4>
+            <button class="button-filter reset" data-filter=".doctor">
+              Покажи всички
+            </button>
+            <button class="button-filter reset" data-filter=".ophthalmologist">
+              Офталмолог
+            </button>
+            <button class="button-filter reset" data-filter=".dermatologist">
+              Дерматолог
+            </button>
+            <button class="button-filter reset" data-filter=".surgery">
+              Хирургия
+            </button>
+            <button class="button-filter reset" data-filter=".psychology">
+              Психология
+            </button>
+            <button class="button-filter reset" data-filter=".gp">
+              Oбщо практикуващ
+            </button>
+            <button class="button-filter reset" data-filter=".pediatrician">
+              Педиатри
             </button>
           </div>
         </div>
@@ -387,37 +420,8 @@
           </div>
 
           <!-- Doctors -->
-          <div class="element-item text-center doctor kaarst" data-category="doctor">
-            <h3 class="name">Minko Kojouharov</h3>
-            <p class="address">Broicherdorfstr. 77, 41564 Kaarst</p>
-
-            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
-              <i class="fas fa-info-circle icon-info me-3"></i>
-              <span>Личен лекар</span>
-            </p>
-            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
-              <span>02131 74 22 110</span>
-            </p>
-            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
-              <span class="text-left">info@mkpraxis.de</span>
-            </p>
-            <a href="https://mkpraxis.de/" class="
-                  link-text
-                  mt-2
-                  text-bold
-                  d-flex
-                  flex-row
-                  align-items-center
-                " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
-              zur Website
-            </a>
-            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
-          </div>
-
-          <div class="element-item text-center doctor duesseldorf" data-category="doctor">
+          
+          <div class="element-item text-center doctor ophthalmologist duesseldorf" data-category="doctor">
             <h3 class="name">Dr. med. Ivo Milanov</h3>
             <p class="address">Carlsplatz 5, 40213 Düsseldorf</p>
 
@@ -447,7 +451,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor duesseldorf" data-category="doctor">
+          <div class="element-item text-center doctor ophthalmologist duesseldorf" data-category="doctor">
             <h3 class="name">Stella Sinigerova</h3>
             <p class="address">Hauptstraße 32, 40597 Düsseldorf</p>
 
@@ -477,7 +481,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor duesseldorf" data-category="doctor">
+          <div class="element-item text-center doctor dermatologist duesseldorf" data-category="doctor">
             <h3 class="name">Krasimir Georgiev</h3>
             <p class="address">Schwanenplatz, 240721 Hilden</p>
 
@@ -507,7 +511,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor duesseldorf" data-category="doctor">
+          <div class="element-item text-center doctor surgery duesseldorf" data-category="doctor">
             <h3 class="name">Dr. med. Ivan Radkov</h3>
             <p class="address">Reichsstr. 59, 40217 Düsseldorf</p>
 
@@ -536,8 +540,98 @@
             </a>
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
+          
+          <div class="element-item text-center doctor dermatologist cologne" data-category="doctor">
+            <h3 class="name">Priv.-Doz. Dr. med. Ina Hadshiew  </h3>
+            <p class="address">Graseggerstr. 105, 50737 Köln</p>
 
-          <div class="element-item text-center doctor moenchengladbach" data-category="doctor">
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Кожен лекар</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>0221 92424 360</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">info@derma-koeln.de</span>
+            </p>
+            <a href="https://derma-koeln.de/index.php/unser-team/team/item/25-priv-doz-dr-med-ina-hadshiew" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor psychology cologne" data-category="doctor">
+            <h3 class="name">Detelina Yankova</h3>
+            <p class="address">Kalker Hauptstraße 220, 51103 Köln-Kalk</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Психолог</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>0221 222 899 88</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">detelina.yankova@yahoo.de</span>
+            </p>
+            <a href="https://www.psychotherapie-yankova.de/" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor gp kaarst" data-category="doctor">
+            <h3 class="name">Minko Kojouharov</h3>
+            <p class="address">Broicherdorfstr. 77, 41564 Kaarst</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Личен лекар</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>02131 74 22 110</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">info@mkpraxis.de</span>
+            </p>
+            <a href="https://mkpraxis.de/" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor dermatologist moenchengladbach" data-category="doctor">
             <h3 class="name">Biliana Böhm</h3>
             <p class="address">Viersener Str 50, 41061 Mönchengladbach</p>
 
@@ -557,7 +651,7 @@
                   link-text
                   mt-2
                   text-bold
-                  d-fl
+                  d-flex
                   flex-row
                   align-items-center
                 " target="_blank">
@@ -567,7 +661,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor haan" data-category="doctor">
+          <div class="element-item text-center pediatrician doctor haan" data-category="doctor">
             <h3 class="name">Dr. med. Gabriela Warbanow</h3>
             <p class="address">Bahnhofstr. 82, 42781 Haan</p>
 
@@ -587,7 +681,7 @@
                   link-text
                   mt-2
                   text-bold
-                  d-fl
+                  d-flex
                   flex-row
                   align-items-center
                 " target="_blank">
@@ -597,7 +691,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor remscheid" data-category="doctor">
+          <div class="element-item text-center pediatrician doctor remscheid" data-category="doctor">
             <h3 class="name">Rumyana Kiryakova</h3>
             <p class="address">Albert-Schmidt-Allee 75, 42897 Remscheid</p>
 
@@ -617,7 +711,7 @@
                   link-text
                   mt-2
                   text-bold
-                  d-fl
+                  d-flex
                   flex-row
                   align-items-center
                 " target="_blank">
@@ -627,7 +721,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor essen" data-category="doctor">
+          <div class="element-item text-center doctor ophthalmologist essen" data-category="doctor">
             <h3 class="name">Dr. med. Orlin Velinov</h3>
             <p class="address">Lindenallee 8, 45127 Essen</p>
 
@@ -647,7 +741,7 @@
                   link-text
                   mt-2
                   text-bold
-                  d-fl
+                  d-flex
                   flex-row
                   align-items-center
                 " target="_blank">
@@ -657,7 +751,7 @@
             <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
           </div>
 
-          <div class="element-item text-center doctor essen" data-category="doctor">
+          <div class="element-item text-center doctor gp essen" data-category="doctor">
             <h3 class="name">Galina Tsopanova</h3>
             <p class="address">Schonnefeldstrasse 7, 45326 Essen</p>
 
@@ -677,7 +771,127 @@
                   link-text
                   mt-2
                   text-bold
-                  d-fl
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor ophthalmologist essen" data-category="doctor">
+            <h3 class="name">Stefka Aleksandrova</h3>
+            <p class="address">Winkhausstraße 1, 45329 Essen</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Очен лекар</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>0201 331 414</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">lindenallee@augenaerzte-essen.de</span>
+            </p>
+            <a href="https://www.augenklinik-altenessen.de/ueber_uns/" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor surgery оberhausen" data-category="doctor">
+            <h3 class="name">Dr. med. Georgi Markov</h3>
+            <p class="address">Westfälische Str. 6, 46117 Oberhausen</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Хирург</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>0208 890 001</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">info@cko-oberhausen.de</span>
+            </p>
+            <a href="https://www.cko-oberhausen.de/kontakt" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor ophthalmologist krefeld" data-category="doctor">
+            <h3 class="name">Dr. med. Despina Kokkinou</h3>
+            <p class="address">Westwall 122, 47798 Krefeld</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Очен лекар</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>02151 774 544</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">praxis@augen-k.de</span>
+            </p>
+            <a href="https://augen-k.de/kontakt/" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              zur Website
+            </a>
+            <a href="" class="btn btn-primary mt-4 disabled">Прочети повече...</a>
+          </div>
+
+          <div class="element-item text-center doctor gp kleve" data-category="doctor">
+            <h3 class="name">Reneta Schirrmacher</h3>
+            <p class="address">Hagsche Str. 77, 47533 Kleve</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Обща медицина</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <span>0282 121 029</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <span class="text-left">info@lohengrin-praxis.de</span>
+            </p>
+            <a href="https://www.lohengrin-praxis.de/das-aerzteteam-arzt-kleve/" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
                   flex-row
                   align-items-center
                 " target="_blank">
@@ -895,7 +1109,7 @@
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
               <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
-              <span class="text-left">info@bgkulturverein-edeleiss.de</span>
+              <span class="text-left">info@bgkulturverein-edelweiss.de</span>
             </p>
             <a href="" class="
                   link-text

@@ -10,6 +10,17 @@ var $grid = $('.grid').isotope({
   }
 });
 
+$('.reset').on( 'click', function() {
+  var $anyButtons = $('.filters').find('button[data-filter=""]');
+  var $buttons = $('.filters button');
+  // reset filters
+  filters = {};
+  $grid.isotope({ filter: '*' });
+  // reset buttons
+  $buttons.removeClass('is-checked');
+  $anyButtons.addClass('is-checked');
+});
+
 // store filter for each group
 var filters = {};
 

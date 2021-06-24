@@ -36,6 +36,8 @@
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Lazy Load -->
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
 
   <!-- bing -->
   <meta name="msvalidate.01" content="A70ABE567B0BBED8E8B37B7820375485" />
@@ -86,20 +88,26 @@
             <button class="button-filter is-checked " data-filter="*">
               Покажи всички
             </button>
-            <button class="button-filter " data-filter=".shop">
-              <i class="fas fa-shopping-basket me-2"></i>Магазини
-            </button>
             <button class="button-filter " data-filter=".bar">
               <i class="fas fa-utensils me-2"></i>Заведения
             </button>
             <button class="button-filter " data-filter=".beauty">
               <i class="fas fa-skull-crossbones me-2"></i>Салони за красота
             </button>
+            <button class="button-filter " data-filter=".shop">
+              <i class="fas fa-shopping-basket me-2"></i>Магазини
+            </button>
             <button class="button-filter " data-filter=".transport">
               <i class="fas fa-bus me-2"></i>Транспортни услуги
             </button>
+            <button class="button-filter " data-filter=".culture">
+              <i class="fab fa-pagelines me-2"></i>Култура
+            </button>
             <button class="button-filter " data-filter=".translations">
               <i class="fas fa-language me-2"></i>Преводи
+            </button>
+            <button class="button-filter " data-filter=".broker">
+              <i class="fab fa-houzz me-2"></i>Недвижими имоти
             </button>
             <button class="button-filter " data-filter=".travel">
               <i class="fas fa-bed me-2"></i>Туризъм
@@ -110,21 +118,16 @@
             <button class="button-filter " data-filter=".lawyer">
               <i class="fas fa-book me-2"></i>Правни услуги
             </button>
-            <button class="button-filter " data-filter=".construction">
-              <i class="fas fa-hard-hat me-2"></i>Строителни дейности
-            </button>
             <button class="button-filter " data-filter=".internet">
               <i class="fas fa-wifi me-2"></i>Интернет
-            </button>
-            <button class="button-filter " data-filter=".broker">
-              <i class="fab fa-houzz me-2"></i>Недвижими имоти
-            </button>
+            </button>  
             <button class="button-filter " data-filter=".taxes">
               <i class="fas fa-book-open me-2"></i>Счетоводство
             </button>
-            <button class="button-filter " data-filter=".culture">
-              <i class="fab fa-pagelines me-2"></i>Култура
+            <button class="button-filter " data-filter=".construction">
+              <i class="fas fa-hard-hat me-2"></i>Строителни дейности
             </button>
+            
           </div>
 
           <div class="
@@ -201,11 +204,11 @@
               <span>Хранителен магазин</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0179 9465756</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@malincho.de </span>
             </p>
 
@@ -218,7 +221,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -233,11 +236,11 @@
               <span>Хранителен магазин</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0157 8669 5520</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">supermarket.bulgaria@gmail.com</span>
             </p>
 
@@ -249,7 +252,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -264,11 +267,11 @@
               <span>Хранителен магазин</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0179 9465756</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@malincho.de</span>
             </p>
 
@@ -280,7 +283,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -295,11 +298,11 @@
               <span>Хранителен магазин</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0163 5991 866</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">angelovimarket@gmail.com</span>
             </p>
 
@@ -311,7 +314,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -326,11 +329,11 @@
               <span>Хранителен магазин</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0172 1003 504</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">dani.murfi1@gmail.com</span>
             </p>
 
@@ -342,7 +345,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -357,11 +360,11 @@
               <span>Хранителен магазин</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>01521 4663 279</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">murat1203@googlemail.com</span>
             </p>
 
@@ -373,7 +376,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -389,11 +392,11 @@
               <span>Ресторант</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0213 2131 8423</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <a href="https://www.angels-im-teremeer.de/order#/where" target="_blank">поръчай онлайн</a>
             </p>
 
@@ -405,7 +408,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -420,11 +423,11 @@
               <span>Ресторант</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0159 0185 7763</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">yulfetahmedova86@gmail.com</span>
             </p>
             <a href="https://m.facebook.com/Ketering-Milenovi-1224641014230722/?ref=page_internal&mt_nav=0" class="
@@ -435,7 +438,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -451,11 +454,11 @@
               <span>Застраховки</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>02723 60066</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">lovelina.hoefer@ergo.de </span>
             </p>
 
@@ -467,7 +470,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -483,11 +486,11 @@
               <span>Недвижими имоти</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0162 867 1271</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@sofortwohnung.de </span>
             </p>
 
@@ -499,7 +502,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="/companies/sofort.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -515,11 +518,11 @@
               <span>Транспортни услуги</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0163 320 13 813</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">leon.dimitrov@dimitrov-transporte.eu
               </span>
             </p>
@@ -532,7 +535,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -548,11 +551,11 @@
               <span>Козметичен салон</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>01515 042 24 52</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@kosmetik-katerina.com</span>
             </p>
             <a href="https://kosmetik-katerina.com/" class="
@@ -563,7 +566,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="companies/katerina.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -579,11 +582,11 @@
               <span>Счетоводство</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0170 277 9454</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">steuer@bul-tax.de</span>
             </p>
             <a href="https://www.bul-tax.de/" class="
@@ -594,7 +597,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="companies/chlosta.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -610,11 +613,11 @@
               <span>Адвокат</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0221 2716891027</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">ygeorgiev1@kpmg-law.com</span>
             </p>
             <a href="https://kpmg-law.de/unser-team/yuliyan-nikolov-georgiev/" class="
@@ -625,7 +628,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="companies/chlosta.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -640,11 +643,11 @@
               <span>Адвокат</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>09402 7899 143</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@kanzlei-velcheva.com</span>
             </p>
             <a href="http://kanzlei-velcheva.com/de/kanzlei/" class="
@@ -655,7 +658,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="companies/chlosta.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -671,11 +674,11 @@
               <span>Туристическа агенция</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>02723 60066</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@reisebuero-hoefer.de </span>
             </p>
 
@@ -687,7 +690,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -704,11 +707,11 @@
             </p>
 
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0157 37622367</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">i_vasilev@ymail.com</span>
             </p>
             <a href="https://bartex11.github.io/bartonization/" class="
@@ -719,7 +722,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="companies/bartonisation.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -735,11 +738,11 @@
               <span>Заклет преводач - преводи</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icnn phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icnn phone" class="icon me-3 lazyload" />
               <span>02151 4829249</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@gospodinova.com</span>
             </p>
             <a href="https://gospodinova.com/" class="
@@ -750,7 +753,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="/companies/gospodinova.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -765,11 +768,11 @@
               <span>Преводи</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icnn phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icnn phone" class="icon me-3 lazyload" />
               <span>02181 2455456</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@cmvs-consulting.de</span>
             </p>
             <a href="http://cmvs-consulting.de/" class="
@@ -780,7 +783,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -795,11 +798,11 @@
               <span>Преводи</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icnn phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icnn phone" class="icon me-3 lazyload" />
               <span>0049 17439 60609</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">tansu.osman@gmx.de</span>
             </p>
             <a href="https://tansuosmanconsulting.com/" class="
@@ -810,7 +813,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -825,11 +828,11 @@
               <span>Преводи</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icnn phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icnn phone" class="icon me-3 lazyload" />
               <span>0178 751 9672</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@b2b-translation.de</span>
             </p>
             <a href="http://b2b-translation.de/index.html" class="
@@ -840,7 +843,7 @@
                   flex-row
                   align-items-center
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -858,11 +861,11 @@
             </p>
 
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span></span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@donau-nrw.de</span>
             </p>
             <a href="http://www.donau-nrw.de/" class="
@@ -874,7 +877,7 @@
                   align-items-center
                   disabled
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <a href="companies/donau.html" class="btn btn-primary mt-4">Прочети повече...</a>
@@ -890,11 +893,11 @@
             </p>
 
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0176 3633 0799</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@azbukivedi.de</span>
             </p>
             <a href="https://www.azbukivedi.de/" class="
@@ -906,7 +909,7 @@
                   align-items-center
                   disabled
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -922,11 +925,11 @@
             </p>
 
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span></span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@bgkulturverein-edelweiss.de</span>
             </p>
             <a href="" class="
@@ -938,7 +941,40 @@
                   align-items-center
                   disabled
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
+              Интернет
+            </a>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
+          </div>
+
+          <div class="element-item text-center culture moenchengladbach" data-category="culture">
+            <h3 class="name">Kulturverein „Ivan Wasow“ e.V.</h3>
+            <p class="address">Engelsruh 7, 45133 Essen</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Немско-Българско културно дружество</span>
+            </p>
+
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
+              <span>0201 718 510</span>
+            </p>
+
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
+              <span class="e-mail text-left">d-bg-ruhr@deutschland.ms</span>
+            </p>
+            <a href="http://deutsch-bulgarischer-verein.de/" class="
+                  link-text
+                  mt-2
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                  disabled
+                " target="_blank">
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -955,11 +991,11 @@
             </p>
 
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0157 7150 2611</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">perfect.cake.malina@gmail.com</span>
             </p>
             <a href="https://www.facebook.com/MalinasCake/" class="
@@ -971,7 +1007,7 @@
                   align-items-center
                   disabled
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
@@ -987,11 +1023,11 @@
             </p>
 
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/phone.svg" alt="icon phone" class="icon me-3" />
+              <img src="img/phone.svg" alt="icon phone" class="icon me-3 lazyload" />
               <span>0151 5488 0935</span>
             </p>
             <p class="mt-2 mb-0 d-flex flex-row align-items-center">
-              <img src="img/mail.svg" alt="icon mail" class="icon me-3" />
+              <img src="img/mail.svg" alt="icon mail" class="icon me-3 lazyload" />
               <span class="e-mail text-left">info@consult-bg.de</span>
             </p>
             <a href="http://www.consult-bg.de/" class="
@@ -1003,7 +1039,7 @@
                   align-items-center
                   disabled
                 " target="_blank">
-              <img src="img/web.svg" alt="icon website" class="icon-size me-3" />
+              <img src="img/web.svg" alt="icon website" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>

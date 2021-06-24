@@ -73,6 +73,14 @@ a {
 }
 
 
+.accordion-button {
+  text-align: left;
+  justify-content: space-between;
+  &::after {
+    margin-left: 20px;
+  }
+}
+
 /*-------------------------------------------------------------------------------
  Header
 -------------------------------------------------------------------------------*/
@@ -103,7 +111,7 @@ a {
   align-self: center;
   line-height: 1;
   margin: 8px 4px 0 0;
-  padding: .8em;
+  padding: .6em .5em;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -183,14 +191,15 @@ a {
 }
 
 .grid-sizer {
-  width: 90%;
+  width: 94%;
 }
 
 .element-item {
   padding: 30px;
   width: 94%;
   border: 1px solid $base-color;
-  margin-bottom: .8%;
+  margin-bottom: 3%;
+  min-height: 320px;
 }
 
 .name {
@@ -449,20 +458,22 @@ label {
 }
 
 
-
-
-  
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+
+  .button-filter {
+    padding: .8em;
+  }
   .grid-sizer {
     width: 50%;
   }
   .element-item {
     width: 48%;
+    margin-bottom: .6%;
   }
 
 }

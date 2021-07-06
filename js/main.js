@@ -1,13 +1,7 @@
 // init Isotope
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',
-  percentPosition: true,
   layoutMode: 'masonry',
-
-  masonry: {
-    // use element for option
-    columnWidth: '.grid-sizer'
-  }
 });
 
 $('.reset').on( 'click', function() {

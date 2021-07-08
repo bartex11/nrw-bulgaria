@@ -11,11 +11,14 @@
     content="Контакти на българи в Германия - Северен Рейн-Вестфалия. Български лекари, заведения, зъболекари, хранителни магазини, адвокати, счетоводство и много други. Полезна информация за живота в Германия" />
 
   <meta property="og:title" content="Българи в Германия - Северен Рейн-Вестфалия">
+  <meta property="og:image" content="https://nrw-bulgaria.eu/img/logo.png">
+  <meta property="og:image:width" content="163" />
+  <meta property="og:image:height" content="131" />
   <meta property="og:site_name" content="NRW-Bulgaria">
   <meta property="og:url" content="https://nrw-bulgaria.eu/">
   <meta property="og:description" content="В момента страницата предлага повече от 50 контакти на български лекари, зъболекари, хранителни магазини, ресторанти, адвокати, брокери, преводачи и дори български културни дружества (ако ти се танцуват народни танци например) и българско училище.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://nrw-bulgaria.eu/img/logo.svg">
+  
 
   <!-- NRW-BG icon -->
   <link rel="icon" href="img/logo.png" type="image/png" />
@@ -60,6 +63,8 @@
     gtag("config", "G-XGV8PMCZ3S");
   </script>
 
+  
+
   <!-- add header -->
   <script>
     $(function () {
@@ -70,6 +75,10 @@
 </head>
 
 <body>
+   <!-- FB share -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v11.0" nonce="rk4FiY0s"></script>
+  
   <header id="header"></header>
 
   <main class="my-5">
@@ -151,9 +160,16 @@
             некоректна информация.
           </h4>
         </div>
+
+        <div class="fb-container mt-5 d-flex align-items-end justify-content-end">
+          <div class="fb-share-button" data-href="https://nrw-bulgaria.eu/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnrw-bulgaria.eu%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Teilen</a></div>
+        </div>
+
       </div>
 
     </div>
+ 
+      
   </main>
 
   <footer class="base-bgcolor text-center text-lg-start" id="footer"></footer>

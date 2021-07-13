@@ -7,17 +7,15 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="google-site-verification" content="2nXNAVTsHEiV9oncDBeoh9z54-Hpl79bI2uz0-7M3c4" />
   <title>Български лекари в Северен Рейн-Вестфалия Nordrhein-Westfalen NRW. </title>
-  <meta name="description"
-    content="Контакти на български лекари в Германия - Северен Рейн-Вестфалия. Зъболекари, очен лекар, унг и много други " />
+  <meta name="description" content="Контакти на български лекари в Германия - Северен Рейн-Вестфалия. Зъболекари, очен лекар, унг и много други " />
 
+  <!-- Open graph -->
   <meta property="og:title" content="Български лекари в Германия - Северен Рейн-Вестфалия">
   <meta property="og:site_name" content="NRW-Bulgaria">
   <meta property="og:url" content="https://nrw-bulgaria.eu/">
   <meta property="og:description" content="Контакти на български лекари в Германия - Северен Рейн-Вестфалия. Зъболекари, очен лекар, гинеколог, унг и много други">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://nrw-bulgaria.eu/img/logo.png">
-  <meta property="og:image:width" content="163" />
-  <meta property="og:image:height" content="131" />
 
   <!-- NRW-BG icon -->
   <link rel="icon" href="img/logo.png" type="image/png" />
@@ -34,6 +32,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favivons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="96x96" href="img/favivons/favicon-96x96.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="img/favivons/favicon-16x16.png" />
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
   <!-- Google Fonts Roboto -->
@@ -43,14 +42,12 @@
   <!-- Styles -->
   <link rel="stylesheet" href="css/main.css" />
   <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- Lazy Load -->
   <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-
   <!-- bing -->
   <meta name="msvalidate.01" content="A70ABE567B0BBED8E8B37B7820375485" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV8PMCZ3S"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -62,7 +59,7 @@
     gtag("config", "G-XGV8PMCZ3S");
   </script>
 
-  <!-- add header -->
+  <!-- Header -->
   <script>
     $(function () {
       $("#header").load("header.html");
@@ -95,7 +92,7 @@
               " data-filter-group="doctors">
             <h4 class="mb-0">Специалности:</h4>
 
-            <button class="button-filter is-checked" data-filter=".doctor">
+            <button class="button-filter is-checked" data-filter="">
               Покажи всички
             </button>
             <button class="button-filter" data-filter=".ophthalmologist">
@@ -131,6 +128,15 @@
             <button class="button-filter" data-filter=".anesthesiology">
               Aнестезиология
             </button>
+            <button class="button-filter" data-filter=".orthopedist">
+              Ортопед
+            </button>
+            <button class="button-filter" data-filter=".logoped">
+              Логопед
+            </button>
+            <button class="button-filter" data-filter=".dentist">
+              Зъболекар
+            </button>
           </div>
 
           <div class="
@@ -140,65 +146,39 @@
                 js-radio-button-group
               " data-filter-group="town">
             <h4 class="mb-0">Град:</h4>
-            <button class="button-filter is-checked" data-filter="*">
-              Покажи всички
-            </button>
-            <button class="button-filter" data-filter=".duesseldorf">
-              Дюселдорф
-            </button>
-            <button class="button-filter" data-filter=".cologne">
-              Кьолн
-            </button>
-            <button class="button-filter" data-filter=".duisburg">
-              Дуизбург
-            </button>
-            <button class="button-filter" data-filter=".dortmund">
-              Дортмунд
-            </button>
-            <button class="button-filter" data-filter=".krefeld">
-              Крефелд
-            </button>
-            <button class="button-filter" data-filter=".meerbusch">
-              Мербуш
-            </button>
-            <button class="button-filter" data-filter=".wuppertal">
-              Вупертал
-            </button>
-            <button class="button-filter" data-filter=".greven">
-              Гревенбройх
-            </button>
-            <button class="button-filter" data-filter=".moenchengladbach">
-              Мьонхенгладбах
-            </button>
+            <button class="button-filter is-checked" data-filter="*">Покажи всички</button>
+            <button class="button-filter" data-filter=".duesseldorf">Дюселдорф</button>
+            <button class="button-filter" data-filter=".cologne">Кьолн</button>
+            <button class="button-filter" data-filter=".dortmund">Дортмунд</button>
             <button class="button-filter" data-filter=".essen">Есен</button>
+            <button class="button-filter" data-filter=".duisburg">Дуизбург</button>
+            <button class="button-filter" data-filter=".wuppertal">Вупертал</button>
+            <button class="button-filter" data-filter=".bielefeld">Билефелд</button>
             <button class="button-filter" data-filter=".bonn">Бон</button>
-            <button class="button-filter" data-filter=".oberhausen">
-              Оберхаузен
-            </button>
-            <button class="button-filter" data-filter=".solingen">
-              Солинген
-            </button>
+            <button class="button-filter" data-filter=".moenchengladbach">Мьонхенгладбах</button>
+            <button class="button-filter" data-filter=".krefeld">Крефелд</button>
+            <button class="button-filter" data-filter=".oberhausen">Оберхаузен</button>
+            <button class="button-filter" data-filter=".muelheim">Мюлхайм</button>
+            <button class="button-filter" data-filter=".solingen">Солинген</button>
+            <button class="button-filter" data-filter=".remscheid">Ремшайд</button>
+            <button class="button-filter" data-filter=".meerbusch">Мербуш</button>
             <button class="button-filter" data-filter=".kaarst">Карст</button>
             <button class="button-filter" data-filter=".haan">Хан</button>
             <button class="button-filter" data-filter=".hilden">Хилден</button>
-            <button class="button-filter" data-filter=".remscheid">
-              Ремшайд
-            </button>
-            <button class="button-filter" data-filter=".lennestadt">
-              Ленещат
-            </button>
+            <button class="button-filter" data-filter=".lennestadt">Ленещат</button>
+            <button class="button-filter" data-filter=".greven">Гревенбройх</button>
             <button class="button-filter" data-filter=".kleve">Клеве</button>
-            <button class="button-filter" data-filter=".muelheim">Мюлхайм</button>
+            <button class="button-filter" data-filter=".troisdorf">Тройсдорф</button>
+            <button class="button-filter" data-filter=".guetersloh">Гютерсло</button>
+            
           </div>
-
-
         </div>
 
         <div class="grid mt-5">
           <div class="grid-sizer"></div>
 
           <!-- Doctors -->
-          <div class="element-item text-center doctor ophthalmologist duesseldorf" data-category="doctor">
+          <div class="element-item text-center ophthalmologist duesseldorf" data-category="doctor">
             <h3 class="name">Dr. med. Ivo Milanov</h3>
             <p class="address">Carlsplatz 5, 40213 Düsseldorf</p>
 
@@ -220,14 +200,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor ophthalmologist duesseldorf" data-category="doctor">
+          <div class="element-item text-center ophthalmologist duesseldorf" data-category="doctor">
             <h3 class="name">Stella Sinigerova</h3>
             <p class="address">Hauptstraße 32, 40597 Düsseldorf</p>
 
@@ -249,14 +229,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor dermatologist hilden" data-category="doctor">
+          <div class="element-item text-center dermatologist hilden" data-category="doctor">
             <h3 class="name">Krasimir Georgiev</h3>
             <p class="address">Schwanenplatz 2, 40721 Hilden</p>
 
@@ -278,14 +258,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor surgery duesseldorf" data-category="doctor">
+          <div class="element-item text-center surgery duesseldorf" data-category="doctor">
             <h3 class="name">Dr. med. Ivan Radkov</h3>
             <p class="address">Reichsstr. 59, 40217 Düsseldorf</p>
 
@@ -307,14 +287,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor dermatologist cologne" data-category="doctor">
+          <div class="element-item text-center dermatologist cologne" data-category="doctor">
             <h3 class="name">Priv.-Doz. Dr. med. Ina Hadshiew</h3>
             <p class="address">Graseggerstr. 105, 50737 Köln</p>
 
@@ -336,14 +316,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor psychology cologne" data-category="doctor">
+          <div class="element-item text-center psychology cologne" data-category="doctor">
             <h3 class="name">Dr. Genoveva Dimova</h3>
             <p class="address">Richard-Wagner-Str. 40, 50674 Köln</p>
 
@@ -365,14 +345,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor psychology cologne" data-category="doctor">
+          <div class="element-item text-center psychology cologne" data-category="doctor">
             <h3 class="name">Detelina Yankova</h3>
             <p class="address">Kalker Hauptstraße 220, 51103 Köln-Kalk</p>
 
@@ -394,14 +374,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor psychology cologne" data-category="doctor">
+          <div class="element-item text-center psychology cologne" data-category="doctor">
             <h3 class="name">Dipl.-Psych. Albena Gieva</h3>
             <p class="address">Neumarkt 8-10, 50667 Köln</p>
 
@@ -423,14 +403,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor hno cologne" data-category="doctor">
+          <div class="element-item text-center hno cologne" data-category="doctor">
             <h3 class="name">Dr. med. habil. Emil Zenev</h3>
             <p class="address">Zeppelinstr. 1, 50667 Köln</p>
 
@@ -452,14 +432,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor gynecology wuppertal" data-category="doctor">
+          <div class="element-item text-center gynecology wuppertal" data-category="doctor">
             <h3 class="name">Dr. med. Larissa Stoyanova</h3>
             <p class="address">Turmhof 6, 42103 Wuppertal</p>
 
@@ -481,16 +461,16 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor gynecology swisttal" data-category="doctor">
+          <div class="element-item text-center gynecology swisttal" data-category="doctor">
             <h3 class="name">Dr. med. Elena Laisiepen</h3>
-            <p class="address">Kölner Str. 29, 53913 Swisttal - Heimerzheim</p>
+            <p class="address">Kölner Str. 29, 53913 Swisttal</p>
 
             <p class="mt-3 mb-0 d-flex flex-row align-items-center">
               <i class="fas fa-info-circle icon-info me-3"></i>
@@ -510,14 +490,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor surgery wuppertal" data-category="doctor">
+          <div class="element-item text-center surgery wuppertal" data-category="doctor">
             <h3 class="name">Ismail Ekrem Hadzhiyusein</h3>
             <p class="address">Kleine Klotzbahn 22, 42105 Wuppertal</p>
 
@@ -539,14 +519,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor kardiolog dortmund" data-category="doctor">
+          <div class="element-item text-center kardiolog dortmund" data-category="doctor">
             <h3 class="name">Dr. med. Mariya Dimitrova</h3>
             <p class="address">Märkische Straße 86, 44141 Dortmund</p>
 
@@ -568,14 +548,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor gp kaarst" data-category="doctor">
+          <div class="element-item text-center gp kaarst" data-category="doctor">
             <h3 class="name">Minko Kojouharov</h3>
             <p class="address">Broicherdorfstr. 77, 41564 Kaarst</p>
 
@@ -597,14 +577,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor dermatologist moenchengladbach" data-category="doctor">
+          <div class="element-item text-center dermatologist moenchengladbach" data-category="doctor">
             <h3 class="name">Biliana Böhm</h3>
             <p class="address">Viersener Str 50, 41061 Mönchengladbach</p>
 
@@ -626,14 +606,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center pediatrician doctor haan" data-category="doctor">
+          <div class="element-item text-center pediatrician haan" data-category="doctor">
             <h3 class="name">Dr. med. Gabriela Warbanow</h3>
             <p class="address">Bahnhofstr. 82, 42781 Haan</p>
 
@@ -655,7 +635,7 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
@@ -684,14 +664,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center dermatologist doctor bonn" data-category="doctor">
+          <div class="element-item text-center dermatologist bonn" data-category="doctor">
             <h3 class="name">Dr. Ani Tsvetanova-Radeva</h3>
             <p class="address">Friedensplatz 16, 53111 Bonn</p>
 
@@ -713,14 +693,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center dermatologist doctor bonn" data-category="doctor">
+          <div class="element-item text-center dermatologist bonn" data-category="doctor">
             <h3 class="name">Dr. Wassil Raykov</h3>
             <p class="address">Kölnstr. 118, 53111 Bonn</p>
 
@@ -749,7 +729,7 @@
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center pediatrician doctor remscheid" data-category="doctor">
+          <div class="element-item text-center pediatrician remscheid" data-category="doctor">
             <h3 class="name">Rumyana Kiryakova</h3>
             <p class="address">Albert-Schmidt-Allee 75, 42897 Remscheid</p>
 
@@ -772,14 +752,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center radiology doctor remscheid" data-category="doctor">
+          <div class="element-item text-center radiology  remscheid" data-category="doctor">
             <h3 class="name">Dr. med. Petar Trendafilov</h3>
             <p class="address">Burger Str. 211, 42859 Remscheid</p>
 
@@ -801,14 +781,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor ophthalmologist essen" data-category="doctor">
+          <div class="element-item text-center ophthalmologist essen" data-category="doctor">
             <h3 class="name">Dr. med. Orlin Velinov</h3>
             <p class="address">Lindenallee 8, 45127 Essen</p>
 
@@ -830,14 +810,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor kardiolog duisburg" data-category="doctor">
+          <div class="element-item text-center kardiolog duisburg" data-category="doctor">
             <h3 class="name">Rositsa Hadzhiyska</h3>
             <p class="address">Fischerstrasse 128, 47053 Duisburg</p>
 
@@ -859,14 +839,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor kardiolog essen" data-category="doctor">
+          <div class="element-item text-center kardiolog essen" data-category="doctor">
             <h3 class="name">Galina Tsopanova</h3>
             <p class="address">Schonnefeldstrasse 7, 45326 Essen</p>
 
@@ -888,14 +868,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor ophthalmologist essen" data-category="doctor">
+          <div class="element-item text-center ophthalmologist essen" data-category="doctor">
             <h3 class="name">Stefka Aleksandrova</h3>
             <p class="address">Winkhausstraße 1, 45329 Essen</p>
 
@@ -917,14 +897,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor surgery оberhausen" data-category="doctor">
+          <div class="element-item text-center surgery оberhausen" data-category="doctor">
             <h3 class="name">Dr. med. Georgi Markov</h3>
             <p class="address">Westfälische Str. 6, 46117 Oberhausen</p>
 
@@ -946,14 +926,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor ophthalmologist krefeld" data-category="doctor">
+          <div class="element-item text-center ophthalmologist krefeld" data-category="doctor">
             <h3 class="name">Dr. med. Despina Kokkinou</h3>
             <p class="address">Westwall 122, 47798 Krefeld</p>
 
@@ -975,14 +955,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor gp kleve" data-category="doctor">
+          <div class="element-item text-center gp kleve" data-category="doctor">
             <h3 class="name">Reneta Schirrmacher</h3>
             <p class="address">Hagsche Str. 77, 47533 Kleve</p>
 
@@ -1004,14 +984,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor gp еrkelenz" data-category="doctor">
+          <div class="element-item text-center gp еrkelenz" data-category="doctor">
             <h3 class="name">Valentina Nikolovska</h3>
             <p class="address">In Lövenich 100, 41812 Erkelenz</p>
 
@@ -1034,14 +1014,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor gp duisburg" data-category="doctor">
+          <div class="element-item text-center gp duisburg" data-category="doctor">
             <h3 class="name">Dr. Rosica Klomberg</h3>
             <p class="address">Fischerstrasse 128, 47053 Duisburg</p>
 
@@ -1063,14 +1043,14 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
             <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
-          <div class="element-item text-center doctor anesthesiology muelheim" data-category="doctor">
+          <div class="element-item text-center anesthesiology muelheim" data-category="doctor">
             <h3 class="name">Maya Gabriel</h3>
             <p class="address">Brunshofstrasse 2, 45470 Mülheim a.d.R.</p>
 
@@ -1092,7 +1072,65 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
+              <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
+              Интернет
+            </a>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
+          </div>
+
+          <div class="element-item text-center logoped dortmund" data-category="doctor">
+            <h3 class="name">Stanislava Mihova</h3>
+            <p class="address">Münsterstr. 40, 44145 Dortmund</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Логопед</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone lazyload" class="icon me-3 lazyload" />
+              <span>0157 8918 8735</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail lazyload" class="icon me-3 lazyload" />
+              <span class="e-mail text-left">savi8405@gmail.com</span>
+            </p>
+            <div class="
+                  link-text mt-2 mb-4
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank"  rel="noreferrer">
+              <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
+              Интернет
+            </div>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
+          </div>
+
+          <div class="element-item text-center orthopedist dortmund" data-category="doctor">
+            <h3 class="name">Praxis Dr. Nikolov</h3>
+            <p class="address">Hermannstraße 48, 44263 Dortmund</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Ортопед</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone lazyload" class="icon me-3 lazyload" />
+              <span>0231 424 277</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail lazyload" class="icon me-3 lazyload" />
+              <span class="e-mail text-left">post@praxis-nikolov.de</span>
+            </p>
+            <a href="www.praxis-nikolov.de" class="
+                  link-text mt-2 mb-4
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
@@ -1122,7 +1160,7 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
@@ -1151,11 +1189,98 @@
                   d-flex
                   flex-row
                   align-items-center
-                " target="_blank">
+                " target="_blank"  rel="noreferrer">
               <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
               Интернет
             </a>
-            <a href="companies/chlosta.html" class="btn btn-primary mt-4">Прочети повече...</a>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
+          </div>
+
+          <div class="element-item text-center dentist bielefeld" data-category="dentist">
+            <h3 class="name">Zahnarztpraxis Parvanov</h3>
+            <p class="address">Detmolder Str. 530, 33699 Bielefeld</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Зъболекарска практика</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone lazyload" class="icon me-3 lazyload" />
+              <span>0521 2019 557</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail lazyload" class="icon me-3 lazyload" />
+              <span class="e-mail text-left">p.parvanov@web.de</span>
+            </p>
+            <a href="https://www.zahnarzt-bielefeld-parvanov.de/" class="
+                  link-text mt-2 mb-4
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank"  rel="noreferrer">
+              <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
+              Интернет
+            </a>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
+          </div>
+
+          <div class="element-item text-center dentist troisdorf" data-category="dentist">
+            <h3 class="name">Zahnarztpraxis Im Jägersgarten</h3>
+            <p class="address">Im Jägersgarten 19, 53844 Troisdorf</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Зъболекарска практика</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone lazyload" class="icon me-3 lazyload" />
+              <span>0224 142 515</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail lazyload" class="icon me-3 lazyload" />
+              <span class="e-mail text-left">zahnaerztin.globinsky@gmx.de</span>
+            </p>
+            <a href="https://zahnaerztin-lobinsky.de/" class="
+                  link-text mt-2 mb-4
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank"  rel="noreferrer">
+              <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
+              Интернет
+            </a>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
+          </div>
+
+          <div class="element-item text-center dentist guetersloh" data-category="dentist">
+            <h3 class="name">Zahnarztpraxis Heneke & Kinov</h3>
+            <p class="address">Eickhoffstrasse 20, 33330 Gütersloh</p>
+
+            <p class="mt-3 mb-0 d-flex flex-row align-items-center">
+              <i class="fas fa-info-circle icon-info me-3"></i>
+              <span>Зъболекарска практика</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/phone.svg" alt="icon phone lazyload" class="icon me-3 lazyload" />
+              <span>0524 1925 250</span>
+            </p>
+            <p class="mt-2 mb-0 d-flex flex-row align-items-center">
+              <img src="img/mail.svg" alt="icon mail lazyload" class="icon me-3 lazyload" />
+              <span class="e-mail text-left">zahn@dr-haneke.de</span>
+            </p>
+            <a href="https://www.zahnaerzte-guetersloh.com/" class="
+                  link-text mt-2 mb-4
+                  text-bold
+                  d-flex
+                  flex-row
+                  align-items-center
+                " target="_blank"  rel="noreferrer">
+              <img src="img/web.svg" alt="icon website lazyload" class="icon-size me-3 lazyload" />
+              Интернет
+            </a>
+            <div class="btn btn-primary mt-4 disabled">Прочети повече...</div>
           </div>
 
         </div>

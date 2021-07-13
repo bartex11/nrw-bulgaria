@@ -1,145 +1,278 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://nrw-bulgaria.eu/</loc>
-  <lastmod>2021-06-04T19:20:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/companies/chlosta.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/companies/katerina.html</loc>
-  <lastmod>2021-06-04T19:20:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/companies/bartonisation.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/books.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/cars.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/documents.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/educations.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/house.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/insurance.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/jobs.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/kids.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/tipps/taxes.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/about-house.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/about-taxes.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/blasck-job.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/cars-bg.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/drive-bg.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/e-usluga.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/faq-house.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/forms.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/found-house.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/healthcare.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/insurance-types.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/transfer-country.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/work-companies.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nrw-bulgaria.eu/articles/work-insurance.html</loc>
-  <lastmod>2021-06-04T19:20:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+  <url>
+    <loc>https://nrw-bulgaria.eu/</loc>
+    <lastmod>2021-07-08T18:18:57+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/doctors.html</loc>
+    <lastmod>2021-07-08T18:29:50+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies.html</loc>
+    <lastmod>2021-07-09T06:53:55+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tips.html</loc>
+    <lastmod>2021-07-08T18:19:07+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/contact.html</loc>
+    <lastmod>2021-07-08T18:18:53+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/chlosta.html</loc>
+    <lastmod>2021-07-08T18:19:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/sofort.html</loc>
+    <lastmod>2021-07-08T18:19:17+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/katerina.html</loc>
+    <lastmod>2021-07-08T18:19:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/bartonisation.html</loc>
+    <lastmod>2021-07-08T18:19:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/gospodinova.html</loc>
+    <lastmod>2021-07-08T18:19:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/donau.html</loc>
+    <lastmod>2021-07-08T18:19:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/companies/aulnrw.html</loc>
+    <lastmod>2021-07-08T18:19:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/taxes.html</loc>
+    <lastmod>2021-07-08T18:22:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/jobs.html</loc>
+    <lastmod>2021-07-08T18:22:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/documents.html</loc>
+    <lastmod>2021-07-08T18:22:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/house.html</loc>
+    <lastmod>2021-07-08T18:22:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/cars.html</loc>
+    <lastmod>2021-07-08T18:22:29+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/insurance.html</loc>
+    <lastmod>2021-07-08T18:22:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/education.html</loc>
+    <lastmod>2021-07-08T18:22:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/bulgaria.html</loc>
+    <lastmod>2021-07-08T18:22:29+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/books.html</loc>
+    <lastmod>2021-07-08T18:22:29+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/kids.html</loc>
+    <lastmod>2021-07-08T18:22:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/tipps/languages.html</loc>
+    <lastmod>2021-07-08T18:22:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/parents-taxes.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/taxes-return.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/about-taxes.html</loc>
+    <lastmod>2021-07-08T18:19:10+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/faq-taxes.html</loc>
+    <lastmod>2021-07-08T18:19:12+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/transfer-country.html</loc>
+    <lastmod>2021-07-08T18:19:14+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/black-job.html</loc>
+    <lastmod>2021-07-08T18:19:10+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/work-companies.html</loc>
+    <lastmod>2021-07-08T18:19:14+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/work-insurance.html</loc>
+    <lastmod>2021-07-08T18:19:14+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/forms.html</loc>
+    <lastmod>2021-07-08T18:19:12+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/bg-documents.html</loc>
+    <lastmod>2021-07-08T18:19:10+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/%D0%B5mergency_travel_doc.html</loc>
+    <lastmod>2021-07-08T18:19:14+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/e-usluga_bds.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/faq-house.html</loc>
+    <lastmod>2021-07-08T18:19:12+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/about-house.html</loc>
+    <lastmod>2021-07-08T18:19:10+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/found-house.html</loc>
+    <lastmod>2021-07-08T18:19:12+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/41m2.html</loc>
+    <lastmod>2021-07-08T18:19:10+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/drive-bg.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/drive-de.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/cars-bg.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/car-insurance.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/faq-car-insurance.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/healthcare.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/healthcare-types.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/faq-healthcare.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/insurance-types.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/school-germany.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/faq-school.html</loc>
+    <lastmod>2021-07-08T18:19:12+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/articles/faq-college.html</loc>
+    <lastmod>2021-07-08T18:19:11+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/bulgaria/faq-izbori.html</loc>
+    <lastmod>2021-07-08T18:19:15+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/bulgaria/izbori.html</loc>
+    <lastmod>2021-07-08T18:19:15+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://nrw-bulgaria.eu/bulgaria/sekcii.html</loc>
+    <lastmod>2021-07-08T18:19:15+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+ <url>
+    <loc>https://nrw-bulgaria.eu/articles/pasavan-baby.html</loc>
+    <lastmod>2021-07-08T18:19:13+00:00</lastmod>
+    <priority>0.41</priority>
+  </url>
 </urlset>

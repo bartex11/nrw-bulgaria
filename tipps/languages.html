@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Езикови курсове в Германия - Nordrhein-Westfalen.</title>
+    <title>Информация за автомобили за българи в Германия</title>
     <meta name="description" content="Къде мога да уча немски език? Колко струва курса и мога ли да ползвам помощи от държавата" />
 
     <!-- Open graph -->
-    <meta property="og:title" content="Езикови курсове в Германия - Nordrhein-Westfalen.">
+    <meta property="og:title" content="Къде мога да уча немски език? Колко струва курса и мога ли да ползвам помощи от държавата">
     <meta property="og:site_name" content="NRW-Bulgaria">
     <meta property="og:url" content="https://nrw-bulgaria.eu/tipps/languages.html">
     <meta property="og:description" content="Къде мога да уча немски език? Колко струва курса и мога ли да ползвам помощи от държавата">
@@ -31,7 +31,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
-    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -41,15 +40,19 @@
     <!-- Styles -->
     <link rel="stylesheet" href="../css/main.css" />
     <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Lazy Load -->
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV8PMCZ3S"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
+
         gtag('config', 'G-XGV8PMCZ3S');
     </script>
+
     <!-- Header -->
     <script>
         $(function () {
@@ -57,6 +60,8 @@
             $("#footer").load("footer.html");
         });
     </script>
+
+
 </head>
 
 <body>
@@ -68,9 +73,45 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="mb-4">Езикови курсове в Германия</h1>
+                    <h1 class="mb-4">Информация за учене на немски език</h1>
                 </div>
             </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+
+                <div class="col">
+                    <div class="card blog-card h-100">
+                        <img src="../img/course.jpg" class="card-img-top lazyload"
+                            alt="немски курс" />
+                        <div class="card-body">
+                            <h5 class="card-title">Учене на немски език</h5>
+                            <p class="card-text">
+                                Познанията по немски език създават основата за това, да можете...
+                            </p>
+                            <div class="text-center mt-4 mb-3">
+                                <a href="../articles/course.html" class="btn btn-outline-primary ">Прочети повече...</a>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Публикувано на 12.11.2021</small>
+                        </div>
+                    </div>
+                </div>
+
+        
+
+
+              
+
+            
+
+           
+            
+
+            </div>
+
+
+
         </div>
 
     </main>

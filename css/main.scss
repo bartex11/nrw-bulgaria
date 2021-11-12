@@ -315,6 +315,19 @@ $easeSmooth: cubic-bezier(0.39,0.575,0.28,0.995);
 	}
 }
 
+
+.bpa-icon {
+  width: 1.0625rem;
+  height: 1rem;
+  fill: #0071ad;
+  margin: 0 0.1875rem 0.125rem 0.0625rem;
+  text-decoration: none;
+  stroke-width: 0;
+  display: inline-block;
+  transform: translateZ(0);
+}
+
+
 @keyframes apparition {
 	from {
 		opacity: 0;

@@ -1,183 +1,1705 @@
 <!DOCTYPE html>
 <html lang="bg">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Избори</title>
 
-    <!-- NRW-BG icon -->
-    <link rel="icon" href="../img/logo.png" type="image/png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="../img/favicons/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="../img/favicons/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="../img/favicons/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="../img/favicons/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="../img/favicons/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="../img/favicons/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="../img/favicons/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="../img/favicons/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="../img/favicons/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="../img/favicons/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="../img/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="../img/favicons/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="../img/favicons/favicon-16x16.png"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-    />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-    />
-    <!-- MDB -->
-    <link rel="stylesheet" href="../css/mdb.min.css" />
-    <!-- Styles -->
-    <link rel="stylesheet" href="../css/main.css" />
-    <!-- jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Избори</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XGV8PMCZ3S"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- NRW-BG icon -->
+  <link rel="icon" href="../img/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicons/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="../img/favicons/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="../css/mdb.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/main.css" />
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-      gtag("config", "G-XGV8PMCZ3S");
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV8PMCZ3S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <!-- add header -->
-    <script>
-      $(function () {
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
-      });
-    </script>
-  </head>
+    gtag("config", "G-XGV8PMCZ3S");
+  </script>
 
-  <body>
-    <header id="header"></header>
+  <!-- add header -->
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+</head>
 
-    <main class="my-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <article class="post-article">
-              <h1 class="post-header mb-3">
-                Карта на секциите в чужбина на избори за президент и НС 2011
-              </h1>
+<body>
+  <header id="header"></header>
 
-              <iframe src="https://glasuvam.org/parl2111r" width="100%" height="600px" allow="geolocation" frameborder="0"></iframe>
+  <main class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <article class="post-article">
+            <h1 class="post-header mb-3">
+              Карта на секциите в чужбина на избори за президент и НС 2011
+            </h1>
+
+            <iframe src="https://glasuvam.org/parl2111r" width="100%" height="600px" allow="geolocation"
+              frameborder="0"></iframe>
+
+
+            <h2 class="mt-5">Статус на секциите в Германия</h2>
+            <p>За статус на секциите, кликнете бутона отдолу</p>
+            <a href="https://bgizbori.de/test.php?fbclid=IwAR26zxpyUtO4_VWkSXnDD-yQlWtuteYNxayrf2_ZzFI_1v86zI8z3FDLWZs"
+              class="button-filter" target="_blank">Секции в германия</a>
+
+
+              <div class="mt-5">
+             
+              <h2>НАРЪЧНИК: КАК ДA ГЛАСУВАМ</h2> 
+            
+              <div >
+                <div  >Целта на този наръчник е да улесни българските граждани по
+                  време на изборния процес и посочи адресите на изборните секции. Опитали сме се да съберем най-често
+                  задаваните въпроси и най-важната информация, релевантна за изборния ден. Тук под тази публикация имате
+                  възможност да зададете допълнителни въпроси. </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Къде да гласувам
+                  за президентски и парламентарни избори 2021 в СРВ/NRW? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> По изключение
+                  германското външно министерство даде разрешение за разкриване на секции и извън дипломатическите и
+                  консулските представителства. Адресите на избирателните секции по разпределението им в населени места
+                  е както следва:</div>
+              </div>
+
+              <div class="my-3">
+                <div  >
+                  <span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Аахен (Ваалс):
+                  Schoolstraat 2, 6295 AV Lemiers, Niederlande</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/rCqrixz38dyQ6cKJ9?fbclid=IwAR0nUrnES1MYVJEsabPHkblwLtcAEJDnaorWXBfCLKWEIGBmPnHBAJXWgmc"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/rcqrixz38dyq6ckj9?fbclid=iwar33_pvm78252vqljnvtkzoeu9jue98avsffmk_pg3eiijo8drvkks2agke"
+                      waprocessedid="c69k" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/rCqrixz38dyQ6cKJ9</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/rcqrixz38dyq6ckj9?fbclid=iwar33_pvm78252vqljnvtkzoeu9jue98avsffmk_pg3eiijo8drvkks2agke&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/rcqrixz38dyq6ckj9?fbclid=iwar33_pvm78252vqljnvtkzoeu9jue98avsffmk_pg3eiijo8drvkks2agke&quot;}"
+                      waprocessedid="c69k"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_20" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span></div>
+              </div>
               
-              
-              <h2 class="mt-5">Статус на секциите в Германия</h2>
-              <p>За статус на секциите, кликнете бутона отдолу</p>
-              <a href="https://bgizbori.de/test.php?fbclid=IwAR26zxpyUtO4_VWkSXnDD-yQlWtuteYNxayrf2_ZzFI_1v86zI8z3FDLWZs" class="button-filter" target="_blank">Секции в германия</a>
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Бон: Ennerthalle,
+                  Pützchensweg 17, 53227 Bonn</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/6Sp3wMNAVRNcduks5?fbclid=IwAR0C66spiy4GGbyqqPwWvJ1hc0TLJnjxQjSYEgr2FmrgbPcj5ZoKdJdSLgw"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/6sp3wmnavrncduks5?fbclid=iwar1zvwyym6gz2va0rgelrp32kwnatgsy15dqscoilbzvk2993n_dr9ah-lk"
+                      waprocessedid="tcwm1" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/6Sp3wMNAVRNcduks5</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/6sp3wmnavrncduks5?fbclid=iwar1zvwyym6gz2va0rgelrp32kwnatgsy15dqscoilbzvk2993n_dr9ah-lk&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/6sp3wmnavrncduks5?fbclid=iwar1zvwyym6gz2va0rgelrp32kwnatgsy15dqscoilbzvk2993n_dr9ah-lk&quot;}"
+                      waprocessedid="tcwm1"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_21" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span></div>
+              </div>
 
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Гютерсло: Berliner
+                  Straße 36-38, 33330 Gütersloh</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/RJ7zr33BK7K9to488?fbclid=IwAR0pgtN4E5Ui5Tj8CdLtrZWdaOmEYUJyIV0Sy0yWQALaPcqqrC3_A6J3Pes"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/rj7zr33bk7k9to488?fbclid=iwar2loaqop8e6ph6b_hhm4qypqlfx5fzlukefkyqmxrh0ymuh65ya6e0izfk"
+                      waprocessedid="yqmd1q" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/RJ7zr33BK7K9to488</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/rj7zr33bk7k9to488?fbclid=iwar2loaqop8e6ph6b_hhm4qypqlfx5fzlukefkyqmxrh0ymuh65ya6e0izfk&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/rj7zr33bk7k9to488?fbclid=iwar2loaqop8e6ph6b_hhm4qypqlfx5fzlukefkyqmxrh0ymuh65ya6e0izfk&quot;}"
+                      waprocessedid="yqmd1q"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_22" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
 
-              <p class="mt-5">
-                <i
-                  >Източник:&nbsp;
-                  <a
-                    href="https://glasuvam.org"
-                    target="_blank"
-                    rel="noopener"
-                    >
-                    <b>Glasuvam.org</b>
-                  </a>
-                  &nbsp; &nbsp;
-                  <a
-                    href="https://bgizbori.de/"
-                    target="_blank"
-                    rel="noopener"
-                    ><b>Bgizbori.de</b></a
-                  >
-                  </i
-                >
-              </p>
-         
-            </article>
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Дуисбург 1 и 2:
+                  IBIS HOTEL Duisburg, Portsmouthplatz 5, 47051 Duisburg</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/FH4JqvPtM2dK9UvEA?fbclid=IwAR3PfebjKCgzm-ueFKeMKWdjIxjwAvnfFmfgEcwxM6Yj4fZxgyfPMx1IOuo"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/fh4jqvptm2dk9uvea?fbclid=iwar2loaqop8e6ph6b_hhm4qypqlfx5fzlukefkyqmxrh0ymuh65ya6e0izfk"
+                      waprocessedid="7a88fl" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/FH4JqvPtM2dK9UvEA</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/fh4jqvptm2dk9uvea?fbclid=iwar2loaqop8e6ph6b_hhm4qypqlfx5fzlukefkyqmxrh0ymuh65ya6e0izfk&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/fh4jqvptm2dk9uvea?fbclid=iwar2loaqop8e6ph6b_hhm4qypqlfx5fzlukefkyqmxrh0ymuh65ya6e0izfk&quot;}"
+                      waprocessedid="7a88fl"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_23" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Дюселдорф Секция 1
+                  и 2: Amt für Statistik und Wahlen, Brinckmannstraße 5, 40225 Düsseldorf</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/2mVeP89xNvXkPVuo8?fbclid=IwAR2LoAQOP8e6pH6B_hhM4QYPqlFx5FZlUKEfKYqMXRh0YmUH65YA6e0IZfk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/2mvep89xnvxkpvuo8?fbclid=iwar0_-ol9br_ajnp3g7wnnapetfbhjenne0gfrkj2i7qovvyc2inaqqodyc0"
+                      waprocessedid="1jo7d" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/2mVeP89xNvXkPVuo8</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/2mvep89xnvxkpvuo8?fbclid=iwar0_-ol9br_ajnp3g7wnnapetfbhjenne0gfrkj2i7qovvyc2inaqqodyc0&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/2mvep89xnvxkpvuo8?fbclid=iwar0_-ol9br_ajnp3g7wnnapetfbhjenne0gfrkj2i7qovvyc2inaqqodyc0&quot;}"
+                      waprocessedid="1jo7d"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_24" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Есен Секция 1 и2:
+                  Intercity Hotel Essen, Hachestraße 10, 45127 Essen </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/eJVfnGCnW3pZkm996?fbclid=IwAR1JXbU_TXZYExVpWUGL902dBGg0hj-SkkRYcteP3OiMXlp63VYQGI50vDE"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/ejvfngcnw3pzkm996?fbclid=iwar38wi_0tlesejiwl8xajeidsecfn0ygjzjieycuunhyavo9k2oahwouew8"
+                      waprocessedid="v2zw7k" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/eJVfnGCnW3pZkm996</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/ejvfngcnw3pzkm996?fbclid=iwar38wi_0tlesejiwl8xajeidsecfn0ygjzjieycuunhyavo9k2oahwouew8&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/ejvfngcnw3pzkm996?fbclid=iwar38wi_0tlesejiwl8xajeidsecfn0ygjzjieycuunhyavo9k2oahwouew8&quot;}"
+                      waprocessedid="v2zw7k"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_25" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Кьолн Секция 1 и
+                  2: Startplatz, Im Mediapark 5, 50670 Köln </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/cFKiGLEMiDhUWf7a8?fbclid=IwAR0C66spiy4GGbyqqPwWvJ1hc0TLJnjxQjSYEgr2FmrgbPcj5ZoKdJdSLgw"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/cfkiglemidhuwf7a8?fbclid=iwar2a2egp8jbcawf8jggasprmebfyawadsvlxms6r6yddgsfa0m7ybt2wnii"
+                      waprocessedid="v5o27n" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/cFKiGLEMiDhUWf7a8</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/cfkiglemidhuwf7a8?fbclid=iwar2a2egp8jbcawf8jggasprmebfyawadsvlxms6r6yddgsfa0m7ybt2wnii&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/cfkiglemidhuwf7a8?fbclid=iwar2a2egp8jbcawf8jggasprmebfyawadsvlxms6r6yddgsfa0m7ybt2wnii&quot;}"
+                      waprocessedid="v5o27n"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_26" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="✅" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png"></span> Мюнстер: Mövenpick
+                  Hotel Münster, Kardinal-von-Galen-Ring 65, 48149 Münster</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="📌" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/1f4cc.png"></span> <span><a
+                      
+                      href="https://goo.gl/maps/6AcF5yShxQ2BHBk67?fbclid=IwAR1-GVV3rQv81huuoDl3dPK5NlqMj06VdzJCYD4ynGE1rIEWIH9LYxK0zSI"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://goo.gl/maps/6acf5yshxq2bhbk67?fbclid=iwar3bm9s1gb724ghrxcummxlx80d9-pe9aa_4q1hvdh7gzp0exxqjje-xvpm"
+                      waprocessedid="lc0wim" waprocessedanchor="true"
+                      style="display: inline-block;">https://goo.gl/maps/6AcF5yShxQ2BHBk67</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:-79,&quot;cat&quot;:[178],&quot;ufg&quot;:6,&quot;url&quot;:&quot;https://goo.gl/maps/6acf5yshxq2bhbk67?fbclid=iwar3bm9s1gb724ghrxcummxlx80d9-pe9aa_4q1hvdh7gzp0exxqjje-xvpm&quot;,&quot;dossierUrl&quot;:&quot;https://goo.gl/maps/6acf5yshxq2bhbk67?fbclid=iwar3bm9s1gb724ghrxcummxlx80d9-pe9aa_4q1hvdh7gzp0exxqjje-xvpm&quot;}"
+                      waprocessedid="lc0wim"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_27" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div  class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Къде да гласувам
+                  за президентски и парламентарни избори 2021 в останалата част на ФРГ и по света? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="1️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t7a/1/16/31_20e3.png"></span> В документа тук
+                  : <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F2khc5w78%3Ffbclid%3DIwAR151UUO6JTX6l3A9cDO9z0RgHzGoGORNJnZMmlO0vt61kTZoiBl37RNDCk&amp;h=AT0ALMm1s4HUlMpx2bMavnyfAKXql-a8I_sBB4OvgE4Kd2nTmsufY4iV31mSiXI7oCsP5hdrcNkhGM7QD01kPgHt079zwDAg5DBvn0uve_KAiY0hblmllrSa4H4lhdrHeg&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/2khc5w78?fbclid=iwar0dsmmhwdz3i3uyauff5l2l0ku0xlddvpmfdmw3kfxsgez5_xf7_qd11ja"
+                      waprocessedid="lt31x8" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/2khc5w78</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/2khc5w78?fbclid=iwar0dsmmhwdz3i3uyauff5l2l0ku0xlddvpmfdmw3kfxsgez5_xf7_qd11ja&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/2khc5w78?fbclid=iwar0dsmmhwdz3i3uyauff5l2l0ku0xlddvpmfdmw3kfxsgez5_xf7_qd11ja&quot;}"
+                      waprocessedid="lt31x8"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_28" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> можете да намерите всички секции във ФРГ по азбучен ред с линк към GoogleMaps; За по провинции
+                  и азбучен ред с линк към GoogleMaps кликнете тук : <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2Fk7czdbzn%3Ffbclid%3DIwAR2iv4e9kKpX0KKqZYVuruQa6wk68Yck4vVDPgjolNrY4gy142S_5ZKcO58&amp;h=AT0FHdFOGMNrYyrHT8YOgKTL0LZkUtG2rhgj2h0HiN9qAqdvBScOij-GZ2SaKVubfFCwQ8vl38MbBFQh6F03HeXZDesKACTbKVvgo9MMkCx3nLx-_uIgidcbHyyuIzArcA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/k7czdbzn?fbclid=iwar0c66spiy4ggbyqqpwwvj1hc0tljnjxqjsyegr2fmrgbpcj5zokdjdslgw"
+                      waprocessedid="46kxar" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/k7czdbzn</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/k7czdbzn?fbclid=iwar0c66spiy4ggbyqqpwwvj1hc0tljnjxqjsyegr2fmrgbpcj5zokdjdslgw&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/k7czdbzn?fbclid=iwar0c66spiy4ggbyqqpwwvj1hc0tljnjxqjsyegr2fmrgbpcj5zokdjdslgw&quot;}"
+                      waprocessedid="46kxar"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_29" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="2️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t99/1/16/32_20e3.png"></span> В
+                  интерактивната карта тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F2rr7e9vv%3Ffbclid%3DIwAR23B-Avo_4wgln2AycW9STcKtaW905Lp-dyhqYXmJ7Xd3Ov11HDHC4PZo0&amp;h=AT2q6eg9JbmwIxlCFFJ1vtuHhyY1-eR-GjWrqJF7q2DhIpqQl66_asNkErkbx_lPeF3NbdN5FRDKb18ItbBESihM7BoehFDWTjDJnbzjAdkPXqw7RT0Nc1GuOGUsJYPKbw&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/2rr7e9vv?fbclid=iwar06s-v-1ydegwr83imphcjgo4cotlzdpjlu7fojnt26odfexf6bnahjcqi"
+                      waprocessedid="6ct4" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/2rr7e9vv</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/2rr7e9vv?fbclid=iwar06s-v-1ydegwr83imphcjgo4cotlzdpjlu7fojnt26odfexf6bnahjcqi&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/2rr7e9vv?fbclid=iwar06s-v-1ydegwr83imphcjgo4cotlzdpjlu7fojnt26odfexf6bnahjcqi&quot;}"
+                      waprocessedid="6ct4"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_30" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> можете автоматично да намерите най-близката до Вас секция. За целта трябва да е включено GPS-
+                  местоположението на електронното Ви устройство. Без (включено) GPS- местоположение, моля да зададете в
+                  лупичката населено място. При отваряне на сайта всеки може да реши, дали да сподели местоположението
+                  си.</div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3" >
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Мога ли да
+                  разбера, дали има много чакащи и опашки пред моята секция? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Това е възможно
+                  само за ФР Германия. Специална платформа ще следи в реално време опашките пред секциите, за да се
+                  избегне голямото чакане. Линк към платформата ще намерите тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F2uxdjxhj%3Ffbclid%3DIwAR2a2egp8JBCAwF8jgGASpRmebfYAWadSvlxmS6r6ydDgSFA0m7ybt2WnII&amp;h=AT2x6Ahw4TKQInXF4PWDT8vHzyHtXX1dToayMlIszo5L8ch9SY7zVkusGy7ZDamodtYXns5bxMA7qkgMfKc66EvNx7zuOZN9T6VatijqH8Opmky_aP7MFfV3Nd0TYtdiXQ&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/2uxdjxhj?fbclid=iwar0nnhk8zpye-qzsmrhv7zi_trus7grl6ijpua1ounkfiqmxyjw3w8ecqcc"
+                      waprocessedid="ztao5" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/2uxdjxhj</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/2uxdjxhj?fbclid=iwar0nnhk8zpye-qzsmrhv7zi_trus7grl6ijpua1ounkfiqmxyjw3w8ecqcc&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/2uxdjxhj?fbclid=iwar0nnhk8zpye-qzsmrhv7zi_trus7grl6ijpua1ounkfiqmxyjw3w8ecqcc&quot;}"
+                      waprocessedid="ztao5"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_31" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span></div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🙏" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t80/1/16/1f64f.png"></span> Специални
+                  благодарности на всички доброволци от граждански инициативи и българските общности в Германия, които
+                  са част и предстои да се включат в това начинание.</div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Кога да гласувам
+                  за президентски и парламентарни избори 2021? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Изборите за
+                  народни представители ще се проведат на 14 ноември 2021 г., от 7:00 ч. до 20:00 ч. местно време.
+                  Възможен е и балотаж при президентските избори на 21 ноември 2021 г., от 7:00 ч. до 20:00 ч. местно
+                  време.</div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Как да гласувам за
+                  президентски и парламентарни избори 2021?</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> На тези избори в
+                  чужбина има възможност да се гласува в някои секции с хартиена бюлетина, а в други чрез машина. </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Хартиената
+                  бюлетина и машинната бюлетина се състоят от една основна колона, при която в лявата ѝ част - в
+                  квадратче са изписани: </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="1️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t7a/1/16/31_20e3.png"></span> при изборите за
+                  президент и вицепрезидент – номерата на кандидатпрезидентската двойка и на последно място “Не
+                  подкрепям никого”; </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="2️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t99/1/16/32_20e3.png"></span> при изборите за
+                  народни представители – номерата на партиите, коалициите, независими кандидати и на последно място “Не
+                  подкрепям никого”. </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> При гласуване с
+                  машина: поставете картата с чипа нагоре и вижте трите полета с надписи. </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> При гласуване с
+                  машина: натиснете върху полето на Вашия избор и потвърдете, в кои избори ще гласувате.</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> При гласуване с
+                  машина: натиснете с пръст квадратчето на своя вот, така че полето да потъмнее.</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> При гласуване с
+                  хартиена бюлетина: отбележите в квадратчето своя вот с „X“ или „V“, използвайки химикал САМО СЪС СИН
+                  ЦВЯТ. </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span>ВНИМАНИЕ: За
+                  секциите в чужбина няма преференции в бюлетините при изборите за народни представители. </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Образец на
+                  бюлетината за гласуване в чужбина за президент и вицепрезидент (Приложение № 119-ПВР) можете да
+                  намерите тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2Fcxx3kvpv%3Ffbclid%3DIwAR0DsmmHwdz3i3UYAUfF5L2L0kU0xlDDvPmfdmw3kFXSGez5_xf7_QD11jA&amp;h=AT3sHLmLk7CxGUlAPTnSQlJTHhYnhi59UWXATs2xCXEhfkGg4p6lTDip22s9q0Z8mWDY7UjE1Q6FN1ftEh8aYS05lsaUyiw80BUcD6_g75vUKPJnNzgW8ftglDIvIDEvfA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/cxx3kvpv?fbclid=iwar0zenpbreibou6eaazpjlpbtn-6u_0fdc_evgo1rlhnqayqo8szszyc4qi"
+                      waprocessedid="24ll8r" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/cxx3kvpv</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/cxx3kvpv?fbclid=iwar0zenpbreibou6eaazpjlpbtn-6u_0fdc_evgo1rlhnqayqo8szszyc4qi&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/cxx3kvpv?fbclid=iwar0zenpbreibou6eaazpjlpbtn-6u_0fdc_evgo1rlhnqayqo8szszyc4qi&quot;}"
+                      waprocessedid="24ll8r"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_32" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Образец на
+                  бюлетината за гласуване в чужбина за народни представители (Приложение № 122-НС) можете да намерите
+                  тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F84vx4mtu%3Ffbclid%3DIwAR3XqybJDaArZwoG3wW4GcLkcqIBfIevrX4ShWnk07X_XeFuI7xWp3aija4&amp;h=AT1Dtsi1_v9jqHHP5S_dpVo__a3dVroEkXx_3G3gX4fhu2MNdhS8JWSNykTcQ92XW-zCKRrGcosYX-H7g2oyYF5nlIrHaQgdDmxBfsi-WzvxeIfBKwQFWA2GvrDdIRc5ZA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/84vx4mtu?fbclid=iwar2lxeoaaaa4vguw9-_mokuay4zpwfcxi1pm3m6vudmjwkbezazz2ntw4h0"
+                      waprocessedid="mizdx" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/84vx4mtu</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/84vx4mtu?fbclid=iwar2lxeoaaaa4vguw9-_mokuay4zpwfcxi1pm3m6vudmjwkbezazz2ntw4h0&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/84vx4mtu?fbclid=iwar2lxeoaaaa4vguw9-_mokuay4zpwfcxi1pm3m6vudmjwkbezazz2ntw4h0&quot;}"
+                      waprocessedid="mizdx"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_33" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Секцията, в която
+                  ще гласувам в чужбина, предлага само гласуване с машина. Сложно ли е гласуването с машина?</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Не, не е сложно.
+                  Да си претеглите любимите банани на електронната везна в позната верига магазини, изисква от Вас
+                  повече усилия. Убедете се сами:</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Ето тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2Fsux9uvb4%3Ffbclid%3DIwAR0DsmmHwdz3i3UYAUfF5L2L0kU0xlDDvPmfdmw3kFXSGez5_xf7_QD11jA&amp;h=AT38ynLXgfO7ddr4lX-1CzOkxuvYc3cvPaXU5olBihCKyeXO-E3Ihrrmbi11m3dcgBOIJ9Fbj12LXqzRcj21G2L3-ZyjJ3dswrRhzxKyhborDRJL_qH911Wi-V-dEu-XjQ&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/sux9uvb4?fbclid=iwar2_irzslsbpnva83jjp7pwkdwc6j3qvh9tiduj-_yasfl3on1z62t9cw3i"
+                      waprocessedid="ezxchy" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/sux9uvb4</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/sux9uvb4?fbclid=iwar2_irzslsbpnva83jjp7pwkdwc6j3qvh9tiduj-_yasfl3on1z62t9cw3i&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/sux9uvb4?fbclid=iwar2_irzslsbpnva83jjp7pwkdwc6j3qvh9tiduj-_yasfl3on1z62t9cw3i&quot;}"
+                      waprocessedid="ezxchy"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_34" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> ще намерите демо на ЦИК за гласуване с машина за страната (подобно на чужбина, където липсват
+                  преференциите).</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Допълнително може
+                  да се запознаете и с разяснителното видео на ЦИК за гласуване с машина извън страната ето тук:
+                  <span><a
+                      
+                      href="https://tinyurl.com/5hyv3x2s?fbclid=IwAR3mDV1XHkDbRiSKE5GB4i8J52CuTaHTdK_stSzrxqXuvr1msGf3gEiAVnQ"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/5hyv3x2s?fbclid=iwar2xnehj2ktxja0qnty5xfmtragke2vo5jmuhrcduxhhccymsgbgyn8suia"
+                      waprocessedid="z5i23yi" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/5hyv3x2s</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/5hyv3x2s?fbclid=iwar2xnehj2ktxja0qnty5xfmtragke2vo5jmuhrcduxhhccymsgbgyn8suia&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/5hyv3x2s?fbclid=iwar2xnehj2ktxja0qnty5xfmtragke2vo5jmuhrcduxhhccymsgbgyn8suia&quot;}"
+                      waprocessedid="z5i23yi"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_35" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span>Кой и с какви
+                  документи може да гласува? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Право да избират
+                  народни представители имат всички български граждани, навършили 18 години, с изключение на поставените
+                  под запрещение и излежаващите наказание лишаване от свобода.</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> По чл. 195 от ИК
+                  избирателите гласуват в чужбина с паспорт, лична карта или военна карта съгласно чл. 13, ал. 1, т. 1 и
+                  2 от ЗЛБД. </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span>Може ли да гласувам
+                  в чужбина, ако документите ми за самоличност са изтекли?</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Да. Избирателите,
+                  чиито срок на валидност на личните документи за самоличност е изтекъл или изтича в периода след 13
+                  март 2020 г. имат право да гласуват на изборите за президент, вицепрезидент и народни представители на
+                  14 и 21 ноември 2021 г. по време на извънредна епидемична обстановка, като удостоверяват самоличността
+                  си пред секционните избирателни комисии в страната и извън страната с лична карта или паспорт, като не
+                  се изисква удостоверение за издаване на лични документи по чл. 263 от Изборния кодекс.</div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span>Може ли да гласувам
+                  в чужбина, ако не съм подал предварително заявление до 19 октомври 2021? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Да. В случай че не
+                  са подали заявление за гласуване извън страната (Приложение № 37-ПВР/НС), българските граждани, които
+                  желаят да гласуват в чужбина, в деня на изборите могат да направят това в удобно за тях място и
+                  изборна секция (виж горе), като подадат декларация по образец пред СИК (Приложение № 38-ПВР/НС от
+                  изборните книжа).</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Можете да си
+                  свалите Приложение № 38-ПВР/НС и да го попълните вкъщи. Това определено ще ограничи струпването на
+                  хора и улесни гладката организация на изборите от изборните комисии.</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Приложение №
+                  38-ПВР/НС и всички изборни книжа можете да намерите на страницата на ЦИК ето тук: <span><a
+                      
+                      href="https://tinyurl.com/2upfstuc?fbclid=IwAR0Lj_ns_6I8PHu6rVi-b-93pK-cgfoGVazO3lse-4sFDNCehYpV_qg0hdk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/2upfstuc?fbclid=iwar2_irzslsbpnva83jjp7pwkdwc6j3qvh9tiduj-_yasfl3on1z62t9cw3i"
+                      waprocessedid="oxw5i" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/2upfstuc</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/2upfstuc?fbclid=iwar2_irzslsbpnva83jjp7pwkdwc6j3qvh9tiduj-_yasfl3on1z62t9cw3i&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/2upfstuc?fbclid=iwar2_irzslsbpnva83jjp7pwkdwc6j3qvh9tiduj-_yasfl3on1z62t9cw3i&quot;}"
+                      waprocessedid="oxw5i"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_36" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span></div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Приложение №
+                  38-ПВР/НС можете да си свалите директно за разпечатване на Вашето електронно устройство от тук:
+                  <span><a
+                      
+                      href="https://tinyurl.com/3mbt6abs?fbclid=IwAR1AT05aHnIG1xHbcE7c-yavBl_ha6d8Nbraa3YOZ0auhSBLQ3wlWOzL2Kk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/3mbt6abs?fbclid=iwar0nnhk8zpye-qzsmrhv7zi_trus7grl6ijpua1ounkfiqmxyjw3w8ecqcc"
+                      waprocessedid="eqveqr" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/3mbt6abs</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/3mbt6abs?fbclid=iwar0nnhk8zpye-qzsmrhv7zi_trus7grl6ijpua1ounkfiqmxyjw3w8ecqcc&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/3mbt6abs?fbclid=iwar0nnhk8zpye-qzsmrhv7zi_trus7grl6ijpua1ounkfiqmxyjw3w8ecqcc&quot;}"
+                      waprocessedid="eqveqr"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_37" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span></div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Ако нямате
+                  възможност да разпечатате и попълните Приложение № 38-ПВР/НС у дома, то ще Ви бъде предоставено в
+                  изборното помещение.</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> ВНИМАНИЕ: Ако
+                  секционната комисия (СИК) откаже да приеме предварително попълнено заявление, имате право да
+                  обжалвате! СИК е длъжна да се свърже с ЦИК за незабавно решение на въпроса без отлагане! </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> ВНИМАНИЕ: Ако
+                  откажат или продължават да настояват, може да подадете сами сигнал до ЦИК! За повече информация вижте
+                  тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F25vc3cnt%3Ffbclid%3DIwAR2XnEhj2KtXja0qntY5XFmTrAgKE2VO5JMUHrCDUxHhccyMsgbGyn8SUiA&amp;h=AT3JS9K0tHc66DX3Q_fyGHJWmEjvo_6hV9aN74dbdmyUKnRNAOat99Xcl6Ot0JSl0qwFpiQidRlLO2s6euLQlz8oxFX3O4uDlJy1Zpsn1lmGGKkmWIueXMWbhLCxV4WYMA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/25vc3cnt?fbclid=iwar3k9xrzvxadfs3tukyuo8sfc4heh9miumfpikowewwjj1gznciaxn9noky"
+                      waprocessedid="7powcqw" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/25vc3cnt</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/25vc3cnt?fbclid=iwar3k9xrzvxadfs3tukyuo8sfc4heh9miumfpikowewwjj1gznciaxn9noky&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/25vc3cnt?fbclid=iwar3k9xrzvxadfs3tukyuo8sfc4heh9miumfpikowewwjj1gznciaxn9noky&quot;}"
+                      waprocessedid="7powcqw"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_38" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> и тук: <span><a
+                      
+                      href="https://tinyurl.com/3d53j4ad?fbclid=IwAR23B-Avo_4wgln2AycW9STcKtaW905Lp-dyhqYXmJ7Xd3Ov11HDHC4PZo0"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/3d53j4ad?fbclid=iwar2a2egp8jbcawf8jggasprmebfyawadsvlxms6r6yddgsfa0m7ybt2wnii"
+                      waprocessedid="uzeov" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/3d53j4ad</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/3d53j4ad?fbclid=iwar2a2egp8jbcawf8jggasprmebfyawadsvlxms6r6yddgsfa0m7ybt2wnii&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/3d53j4ad?fbclid=iwar2a2egp8jbcawf8jggasprmebfyawadsvlxms6r6yddgsfa0m7ybt2wnii&quot;}"
+                      waprocessedid="uzeov"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_39" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Подал съм
+                  заявление за една секция в чужбина, но искам да гласувам в друга секция в чужбина. Възможно ли е това?
+                </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Да. Ваше изконно
+                  право е да упражните Вашия вот в удобно за Вас населено място извън страната. За целта подавате
+                  Приложение № 38-ПВР/НС пред желаната секция в изборния ден. </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Подал съм
+                  заявление в чужбина, но в моя град има повече от една секция. В кой точно избирателен списък и към коя
+                  секция съм нанесен? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Всеки избирател
+                  може да провери адреса на избирателната си секция по следните начини: </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="1️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t7a/1/16/31_20e3.png"></span> На интернет
+                  страницата на Главна дирекция "Гражданска регистрация и административно обслужване" ето тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2Fxey3fa85%3Ffbclid%3DIwAR2Y6NJ7su20VX6gBivsvUchXZ2xB-Oec5PiCie_rj-p-6QlkCtrmzxDTrk&amp;h=AT2kGfAK6unF4ncQkC3Z6F2ADNIzRjxfCtifXiXsmDo-GMJ-5uORMBe83A129Uzuufeeko_KwsRG33jERIlXl54hlx1dU-JOK0N_5G4VafllFSEAHrCmtdlwQPgaKx0jLA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/xey3fa85?fbclid=iwar1ymglpzigu4fooh2xxksmecnbpuu5fr7hjaudux6yx0rvhuf_esz2zk8y"
+                      waprocessedid="7doivxn" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/xey3fa85</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/xey3fa85?fbclid=iwar1ymglpzigu4fooh2xxksmecnbpuu5fr7hjaudux6yx0rvhuf_esz2zk8y&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/xey3fa85?fbclid=iwar1ymglpzigu4fooh2xxksmecnbpuu5fr7hjaudux6yx0rvhuf_esz2zk8y&quot;}"
+                      waprocessedid="7doivxn"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_40" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> , въвеждайки ЕГН, собствено име и цифри от изображението</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="2️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t99/1/16/32_20e3.png"></span>На страницата на
+                  Посолство на Република България в Берлин ето тук: <span><a
+                      
+                      href="https://tinyurl.com/4kwvbvsw?fbclid=IwAR1-GVV3rQv81huuoDl3dPK5NlqMj06VdzJCYD4ynGE1rIEWIH9LYxK0zSI"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/4kwvbvsw?fbclid=iwar2ghwtozifyeaze6otdfsvy1yrepfadnt-azqsqkcswzans5laegw8yy5q"
+                      waprocessedid="y9hpp" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/4kwvbvsw</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/4kwvbvsw?fbclid=iwar2ghwtozifyeaze6otdfsvy1yrepfadnt-azqsqkcswzans5laegw8yy5q&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/4kwvbvsw?fbclid=iwar2ghwtozifyeaze6otdfsvy1yrepfadnt-azqsqkcswzans5laegw8yy5q&quot;}"
+                      waprocessedid="y9hpp"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_41" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> са публикувани списъците за гласуване извън страната за ФР Германия по градове.</div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span><span
+                   ><img
+                      height="16" width="16" alt="3️⃣" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tb8/1/16/33_20e3.png"></span> На страницата
+                  на Министерство на външните работи ето тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F5dtuyy4x%3Ffbclid%3DIwAR2XnEhj2KtXja0qntY5XFmTrAgKE2VO5JMUHrCDUxHhccyMsgbGyn8SUiA&amp;h=AT1W5a2vd2g8UYvCmieWgx-oWLLMZzrUz0T_8U1mUP4XrQhpkYVj7TOTK9ijs_Gzu8r8gE7fRUno34SDijYSx3muLmk-0t_0OTSbRKx7rrMcB0HxIAshBT_cM_QwJ452lA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/5dtuyy4x?fbclid=iwar2nogw0srxxblyofwb-v6f7qimg-jrhpsqzjevyj1paivv7zvhlamg0ud4"
+                      waprocessedid="mhrv6b" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/5dtuyy4x</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/5dtuyy4x?fbclid=iwar2nogw0srxxblyofwb-v6f7qimg-jrhpsqzjevyj1paivv7zvhlamg0ud4&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/5dtuyy4x?fbclid=iwar2nogw0srxxblyofwb-v6f7qimg-jrhpsqzjevyj1paivv7zvhlamg0ud4&quot;}"
+                      waprocessedid="mhrv6b"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_42" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> са публикувани списъците за гласуване извън страната за целия свят по държави.</div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Подал съм
+                  заявление в чужбина, но ми се налага на 14 ноември 2021 г. или на 21 ноември 2021 г. да бъда в
+                  България. Мога ли тогава там да гласувам? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Да. Там може да
+                  гласувате само в секцията Ви по постоянен адрес, попълвайки Приложение № 32-ПВР/НС. Избирателната
+                  комисия ще добави в избирателния списък след името Ви под забележки: „МВнР“.</div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="❓" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/2753.png"></span> Как да гласувам
+                  отговорно при обявената извънредна епидемична обстановка във връзка с COVID-19? </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Моля, спазвайте
+                  всички епидемичните мерки за нормално протичане на изборния процес по локални наредби, федерално и
+                  национално законодателство. За повече информация тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F6tzacyzb%3Ffbclid%3DIwAR0Lj_ns_6I8PHu6rVi-b-93pK-cgfoGVazO3lse-4sFDNCehYpV_qg0hdk&amp;h=AT3EvoBaC3RlfFVkZ8R3IVgd5jnoK6ZNZIubcVTTSXvYANkw_isa1nU_fv-5fN0hYFkUYTYa9jWBLilrkEK5M3i69Cg3Rt7E0xm5MOFvXlix2gjcUeHr0yrMbU6B5Wdt7A&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/6tzacyzb?fbclid=iwar0lj_ns_6i8phu6rvi-b-93pk-cgfogvazo3lse-4sfdncehypv_qg0hdk"
+                      waprocessedid="q5sw7w" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/6tzacyzb</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/6tzacyzb?fbclid=iwar0lj_ns_6i8phu6rvi-b-93pk-cgfogvazo3lse-4sfdncehypv_qg0hdk&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/6tzacyzb?fbclid=iwar0lj_ns_6i8phu6rvi-b-93pk-cgfogvazo3lse-4sfdncehypv_qg0hdk&quot;}"
+                      waprocessedid="q5sw7w"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_43" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> , тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2F77kdyhdk%3Ffbclid%3DIwAR0bNWCMhtekQ2f_76ET7KuN1_Ey22AHV78N9gMRP3nq6apG0lWBcPaHBgs&amp;h=AT3BMw3eYaap2tM9mvFNY4X08KVRgTPS6txzdjEyv59Qs5UOyx2pxOEV_fIJvwz4Zt737P8UU2ZsPQyZ7OD4d_xA_KXgMyn83EZL8r1oWGLP9NILKQFyGbuuGCYSVfzGZA&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/77kdyhdk?fbclid=iwar0pgtn4e5ui5tj8cdltrzwdaomeyujyiv0sy0ywqalapcqqrc3_a6j3pes"
+                      waprocessedid="os546" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/77kdyhdk</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/77kdyhdk?fbclid=iwar0pgtn4e5ui5tj8cdltrzwdaomeyujyiv0sy0ywqalapcqqrc3_a6j3pes&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/77kdyhdk?fbclid=iwar0pgtn4e5ui5tj8cdltrzwdaomeyujyiv0sy0ywqalapcqqrc3_a6j3pes&quot;}"
+                      waprocessedid="os546"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_44" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> и тук: <span><a
+                      
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftinyurl.com%2Ffhm3tkwm%3Ffbclid%3DIwAR0C66spiy4GGbyqqPwWvJ1hc0TLJnjxQjSYEgr2FmrgbPcj5ZoKdJdSLgw&amp;h=AT0FUct5Niht_ueemzSDsYv2WppRn4B2atBRdQp3w4lQG6cU4nsJ_i4qorAC4qp-36XArwwCVsH_lZRIeKNjA0kr8MeHyaHPt0RbyifmVrh-C8Y-aC1JJlZVrH3AIZEy0A&amp;__tn__=-UK-R&amp;c[0]=AT30yyn-O6GKmJEnrYu2gAT_zqgbZeh6Eue5Z9eSaS_8avwOxIiEF2s9OYs4R-0hN4DaXqzqu_GMFxJ1rk_vNMhyItv_M9GoION5JQZ8KCF8W2OTnVvE8NaytV5XveoFd4Yl3PgQnQedeMKkFm8tkLhkuvS_RY_VLGFADnqPBsIzBS-iyB16qDTJmtwZYgOGeF29fhEj_rKJSAL7yEk"
+                      rel="nofollow noopener" role="link" tabindex="0" target="_blank"
+                      original_target="https://tinyurl.com/fhm3tkwm?fbclid=iwar23b-avo_4wgln2aycw9stcktaw905lp-dyhqyxmj7xd3ov11hdhc4pzo0"
+                      waprocessedid="hcyrwp" waprocessedanchor="true"
+                      style="display: inline-block;">https://tinyurl.com/fhm3tkwm</a>
+                    <div
+                      mcafee_wa_ann="{&quot;rep&quot;:0,&quot;cat&quot;:[178],&quot;ufg&quot;:102,&quot;url&quot;:&quot;https://tinyurl.com/fhm3tkwm?fbclid=iwar23b-avo_4wgln2aycw9stcktaw905lp-dyhqyxmj7xd3ov11hdhc4pzo0&quot;,&quot;dossierUrl&quot;:&quot;https://tinyurl.com/fhm3tkwm?fbclid=iwar23b-avo_4wgln2aycw9stcktaw905lp-dyhqyxmj7xd3ov11hdhc4pzo0&quot;}"
+                      waprocessedid="hcyrwp"
+                      style="cursor: default; display: inline-block; float: none; padding: 0px 0px 0px 4px; position: relative; top: 2px; z-index: 1;">
+                      <div id="0DE9E47C-871A-4F90-8440-B190C216800A_45" class="mcafee_ok" onselectstart="return false;"
+                        oncontextmenu="return false;"></div>
+                    </div>
+                  </span> </div>
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Указанията за
+                  провеждане на избори за президент, вицепрезидент и народни представители на 14 и 21 ноември 2021 г. в
+                  условията на обявена извънредна епидемична обстановка във връзка с COVID-19 са разработени в
+                  съответствие с въведените основни противоепидемични мерки в страната и въз основа на опита от
+                  провеждането на изборния процес в редица държави членки на Европейския съюз. </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🇧🇬" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f1e7_1f1ec.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span> Гласувай! <span
+                   ><img
+                      height="16" width="16" alt="🤍" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/tc5/1/16/1f90d.png"></span><span
+                   ><img
+                      height="16" width="16" alt="💚" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png"></span><span
+                   ><img
+                      height="16" width="16" alt="❤️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png"></span> Бъди активен!
+                  <span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🇧🇬" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f1e7_1f1ec.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="ℹ️" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8e/1/16/2139.png"></span> Тази кампания е
+                  създадена с цел да информира и насърчи избирателната активност сред българите в Германия и чужбина.
+                  Всички материали от нея са със свободен достъп, с неполитическа и непропагандна цел! </div>
+              </div>
+
+              <div class="my-3">
+                <div  ><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span><span
+                   ><img
+                      height="16" width="16" alt="🗳" referrerpolicy="origin-when-cross-origin"
+                      src="https://static.xx.fbcdn.net/images/emoji.php/v9/t9a/1/16/1f5f3.png"></span></div>
+              </div>
           </div>
+
+            <p class="mt-5">
+              <i>Източник:&nbsp;
+                <a href="https://glasuvam.org" target="_blank" rel="noopener">
+                  <b>Glasuvam.org</b>
+                </a>
+                &nbsp; &nbsp;
+                <a href="https://bgizbori.de/" target="_blank" rel="noopener"><b>Bgizbori.de</b></a>
+              </i>
+            </p>
+
+          </article>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="bg-light text-center text-lg-start" id="footer"></footer>
+  <footer class="bg-light text-center text-lg-start" id="footer"></footer>
 
-    <!-- MDB -->
-    <script type="text/javascript" src="../js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript" src="../js/isotop.min.js"></script>
-    <script type="text/javascript" src="../js/main.js"></script>
-  </body>
+  <!-- MDB -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="../js/isotop.min.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
 </html>
